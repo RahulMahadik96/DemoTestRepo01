@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-03T19:35:44 IST" name="Default suite" finished-at="2024-05-03T19:35:44 IST" duration-ms="260">
+  <suite started-at="2024-05-03T20:25:04 IST" name="Default suite" finished-at="2024-05-03T20:25:53 IST" duration-ms="49422">
     <groups>
     </groups>
-    <test started-at="2024-05-03T19:35:44 IST" name="Default test" finished-at="2024-05-03T19:35:44 IST" duration-ms="260">
-      <class name="zPractice.GitTestClass">
-        <test-method signature="demoTest()[pri:0, instance:zPractice.GitTestClass@3daa422a]" started-at="2024-05-03T19:35:44 IST" name="demoTest" finished-at="2024-05-03T19:35:44 IST" duration-ms="47" status="PASS">
+    <test started-at="2024-05-03T20:25:04 IST" name="Default test" finished-at="2024-05-03T20:25:53 IST" duration-ms="49422">
+      <class name="zPractice.HRMResetPassTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:zPractice.HRMResetPassTest@6dc17b83]" started-at="2024-05-03T20:25:04 IST" name="setup" finished-at="2024-05-03T20:25:25 IST" duration-ms="21389" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTest -->
-      </class> <!-- zPractice.GitTestClass -->
+        </test-method> <!-- setup -->
+        <test-method signature="resetPasswordTest()[pri:0, instance:zPractice.HRMResetPassTest@6dc17b83]" started-at="2024-05-03T20:25:25 IST" name="resetPasswordTest" finished-at="2024-05-03T20:25:50 IST" duration-ms="24917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:zPractice.HRMResetPassTest@6dc17b83]" started-at="2024-05-03T20:25:50 IST" name="closeBrowser" finished-at="2024-05-03T20:25:53 IST" duration-ms="2945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- zPractice.HRMResetPassTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

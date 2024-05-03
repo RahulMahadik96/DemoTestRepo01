@@ -29,9 +29,22 @@ public class OHRMLoginPage {
 	  
 	  @FindBy(xpath = "//button[@type='submit']")
 	  private WebElement loginButtonElement;
+	  
+	  @FindBy(xpath = "//p[text()='Forgot your password? ']")
+	  private WebElement forgotPassLink;
 	
 	
-	 public WebElement getUseridElement() {
+	 public WebElement getForgotPassLink() {
+		try {
+			return forgotPassLink;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+
+
+	public WebElement getUseridElement() {
 		try {
 			return useridElement;
 		} catch (Exception e) {
