@@ -41,6 +41,8 @@ public class LaunchFirfox {
 		System.out.println("-----------------------------------------------");
 		System.out.println("         Test Script Successfully work"); 
 		
+		System.out.println("New Comment Added");
+		
 
 	}
 
